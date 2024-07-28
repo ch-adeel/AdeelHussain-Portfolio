@@ -1,7 +1,9 @@
 import React from 'react'
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import {HiOutlineMail} from "react-icons/hi";
-import {BsFillPersonLinesFill} from "react-icons/bs"
+import {BsFillPersonLinesFill} from "react-icons/bs";
+import { SlSocialInstagram } from "react-icons/sl";
+
 const SocialLinks = () => {
 
     const links = [
@@ -46,6 +48,16 @@ const SocialLinks = () => {
             href:"/resume.pdf",
             style: "rounded-tr-md",
             download: true,
+        },
+        {
+            id:5,
+            child:(
+                <>
+                Instagram <SlSocialInstagram size={30}/>                
+                </>
+            ),
+            href:"https://www.instagram.com/chaudhary_adeel_hussain_/",
+                style: "rounded-tr-md",
         },
         ]
 
