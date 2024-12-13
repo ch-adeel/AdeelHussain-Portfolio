@@ -11,7 +11,7 @@ const Home = () => {
                 <p className="text-gray-400 py-4 max-w-md text-lg">
                     I have 2.5 years of experience building and desgining software.
                     Currently, I love to work on web application using technologies like
-                    React, Tailwind, Next JS, Node, Express and  MongoDB.
+                    React, Next JS, BootStrap, Tailwind, Node, Express, MongoDB, DynamoDB, .NetCore .
                 </p>
                 <div>
                     <Link to='portfolio' smooth duration={500} className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">

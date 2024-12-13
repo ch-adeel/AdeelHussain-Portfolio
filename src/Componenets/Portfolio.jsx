@@ -24,7 +24,7 @@ const portfolios =[
     {
         id:4,
         src: navbar,
-        title:"E-Progression System Fpr FYP"
+        title:"E-Progression System For FYP"
     },
     {
         id:5,
