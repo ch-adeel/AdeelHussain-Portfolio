@@ -1,23 +1,46 @@
-import React from 'react'
+import React from "react";
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white">
+    <div
+      name="about"
+      className="w-full min-h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+    >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-         <div className="pb-8">
-        <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
-        </div>      
-      <p className="text-xl mt-10 text-white">
-      I’m a  <a href="https://www.linkedin.com/in/adeel-hussain-139113186/" className='text-yellow-400'> "Full-Stack Developer"</a>, Graphic Designer, and WordPress Developer with a robust background in Software Engineering. Combining my technical expertise and creative flair, I specialize in crafting seamless and visually appealing digital experiences.
-      </p>
-        
-      <br />
-      <p className="text-xl text-white">
-      Over the past decade, I’ve built a diverse portfolio that spans software engineering, web development, and graphic design. Starting as a software engineer, I quickly expanded my skills to include full-stack development and WordPress, enabling me to manage both the technical and visual aspects of projects. My design journey began with a passion for creating compelling visuals, which I’ve refined into a professional graphic design practice.
-      </p>
-    </div>
-    </div>
-  )
-}
+        <div className="pb-4 md:pb-8">
+          <p className="text-4xl md:text-5xl font-bold inline border-b-4 border-gray-500">
+            About
+          </p>
+        </div>
 
-export default About
+        <p className="text-base sm:text-lg md:text-xl mt-6">
+          I’m a{" "}
+          <a href="https://www.linkedin.com/in/adeel-hussain-139113186/" className="text-yellow-400 hover:underline font-semibold" >
+          {/* <span className="text-yellow-400 font-semibold"> */}
+            Full-Stack MERN Developer
+          </a>{" "}
+          and Manual QA Engineer, blending development and testing skills to
+          deliver robust, fault-free digital solutions.
+        </p>
+
+        <p className="text-base sm:text-lg md:text-xl mt-4">
+          I’m skilled in{" "}
+          <span className="underline decoration-pink-500">manual testing</span>,
+          reviewing UI/UX functionality, validating user flows, writing detailed
+          test scenarios, regression testing, writing test cases, bug tracking,
+          API testing with Postman, sprint planning, and Jira ticket creation
+          and management. This combination allows me to deliver{" "}
+          <span className="underline decoration-indigo-500">
+            clean, tested, and reliable features
+          </span>
+          . I’m passionate about building intuitive interfaces, maintaining code
+          quality, and continuously improving user experience. I enjoy
+          collaborating with teams, understanding requirements, and transforming
+          ideas into production-ready solutions.
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default About;
