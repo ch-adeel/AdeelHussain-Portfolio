@@ -23,10 +23,10 @@ const Footer = () => {
           <a href="https://github.com/ch-adeel" target="_blank" className="hover:text-white hover:underline">
             Github
           </a>
-          <a href="https://www.linkedin.com/in/adeel-hussain-139113186/" target="_blank" className="hover:text-white hover:underline">
+          <a href="https://www.linkedin.com/in/adeel-hussain-139113186/" target="_blank" rel="noreferrer" className="hover:text-white hover:underline">
             LinkedIn
           </a>
-          <a href="https://www.instagram.com/chaudhary_adeel_hussain_/" target="_blank" className="hover:text-white hover:underline">
+          <a href="https://www.instagram.com/chaudhary_adeel_hussain_/" target="_blank" rel="noreferrer" className="hover:text-white hover:underline">
             Instagram
           </a>
         </div>
