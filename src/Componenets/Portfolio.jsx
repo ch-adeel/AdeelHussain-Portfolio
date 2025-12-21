@@ -86,7 +86,8 @@ const Portfolio = () => {
             <div className="flex flex-col justify-center md:order-1 order-2">
               <h2 className="text-4xl sm:text-5xl md:text-5xl font-bold text-white mt-8 md:mt-0 mb-4 sm:mb-6">
                 Business Portfolio{" "}
-                <a href="https://itbglobal.netlify.app/"
+                <a
+                  href="https://itbglobal.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-400 hover:underline"
@@ -97,14 +98,19 @@ const Portfolio = () => {
 
               <p className="text-gray-400 text-base sm:text-lg md:text-lg mb-6 max-w-md">
                 This application is built using{" "}
-                <a className="underline decoration-zinc-600 hover:decoration-teal-100">
+                <span className="underline decoration-zinc-600 hover:decoration-teal-100">
                   React.js
-                </a> and <a className="underline decoration-neutral-600 hover:decoration-cyan-300">
+                </span>{" "}
+                and{" "}
+                <span className="underline decoration-neutral-600 hover:decoration-cyan-300">
                   Tailwind CSS
-                </a>, 
-                and is deployed on <a className="hover:text-green-300">Netlify</a>. It is a responsive business
-                portfolio website that supports both <a className="hover:font-bold">Dark</a> and <a className="hover:font-bold hover:text-white">Light</a> modes for an
-                enhanced user experience.
+                </span>
+                , and is deployed on{" "}
+                <span className="hover:text-green-300">Netlify</span>. It is a
+                responsive business portfolio website that supports both{" "}
+                <span className="hover:font-bold">Dark</span> and{" "}
+                <span className="hover:font-bold hover:text-white">Light</span>{" "}
+                modes for an enhanced user experience.
               </p>
             </div>
 
