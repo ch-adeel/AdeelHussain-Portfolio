@@ -38,7 +38,7 @@ const About = () => {
           ensuring both functionality and reliability. I am passionate about
           writing clean code, maintaining quality standards, and delivering
           seamless, intuitive{" "}
-          <a className="underline decoration-lime-200">User experiences</a>. I
+          <span className="underline decoration-lime-200">User experiences</span>. I
           focus strongly on customer satisfaction, efficient performance, and
           ensuring the final product works as expected across all flows before
           release. I enjoy collaborating with cross-functional teams,

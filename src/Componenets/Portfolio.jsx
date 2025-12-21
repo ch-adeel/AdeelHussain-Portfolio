@@ -86,10 +86,9 @@ const Portfolio = () => {
             <div className="flex flex-col justify-center md:order-1 order-2">
               <h2 className="text-4xl sm:text-5xl md:text-5xl font-bold text-white mt-8 md:mt-0 mb-4 sm:mb-6">
                 Business Portfolio{" "}
-                <a
-                  href="https://itbglobal.netlify.app/"
+                <a href="https://itbglobal.netlify.app/"
                   target="_blank"
-                  rel="noreferrer noopener"
+                  rel="noopener noreferrer"
                   className="text-blue-400 hover:underline"
                 >
                   ITB
