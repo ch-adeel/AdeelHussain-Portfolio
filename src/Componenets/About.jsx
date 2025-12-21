@@ -17,6 +17,8 @@ const About = () => {
           I’m a{" "}
           <a
             href="https://www.linkedin.com/in/adeel-hussain-139113186/"
+            target="_blank"
+            rel="noreferrer noopener"
             className="text-yellow-400 hover:underline font-semibold"
           >
             {/* <span className="text-yellow-400 font-semibold"> */}
@@ -35,12 +37,13 @@ const About = () => {
           My dual skillset enables me to build and validate features end-to-end,
           ensuring both functionality and reliability. I am passionate about
           writing clean code, maintaining quality standards, and delivering
-          seamless, intuitive <a className="underline decoration-lime-200">User experiences</a>. I focus strongly on customer
-          satisfaction, efficient performance, and ensuring the final product
-          works as expected across all flows before release. I enjoy
-          collaborating with cross-functional teams, understanding business
-          requirements, and transforming ideas into production-ready solutions
-          that add measurable value.
+          seamless, intuitive{" "}
+          <a className="underline decoration-lime-200">User experiences</a>. I
+          focus strongly on customer satisfaction, efficient performance, and
+          ensuring the final product works as expected across all flows before
+          release. I enjoy collaborating with cross-functional teams,
+          understanding business requirements, and transforming ideas into
+          production-ready solutions that add measurable value.
         </p>
       </div>
     </div>
